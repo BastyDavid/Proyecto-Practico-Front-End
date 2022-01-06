@@ -148,6 +148,18 @@ place-items: center;
         background-color: #88a7d0;
         justify-content: center;
     }
+   
+    .primary-button{
+        position: absolute;
+        top: 465px;
+        width: 200px;
+        margin-bottom: 30px;
+    }
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
 }
 .email {
     width: 130px;
@@ -191,6 +203,7 @@ place-items: center;
  text-decoration: none;
 }
 
+
 form a {
     text-align: center;
     font-size: var(--md);
@@ -213,3 +226,20 @@ form a {
     height: 50px;
 }
 
+.value {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
+}
+.secondary-button{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border:1px solid;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+
+}
