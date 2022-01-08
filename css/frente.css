@@ -79,6 +79,47 @@ body{
     margin-bottom: 0px;
     color: var(--very-light-pink);
 }
+.cabecera{
+    background-color: var(--hospital-green);
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+}
+.imagenlogo{
+    display: grid;
+    border-color: yellow;
+}
+.navegacion {
+border: solid ;
+
+ width: 100%;
+}
+.ul_nav{
+    list-style: none;
+    display: flex;
+}
+li a{
+    font-size: var(--lg);
+
+}
+li a:hover{
+    background-color: white;
+  color: #567de9;
+  font-family: serif;
+}
+
+.ul_li {
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-right: 20px;
+    padding: 0 4px;
+}
+.bloque_enlaces{
+    border: solid;
+    border-color: violet;
+}
+
 
 @media (max-width: 640px){
     
